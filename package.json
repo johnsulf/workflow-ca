@@ -23,7 +23,7 @@
     "@babel/preset-env": "^7.19.4",
     "@eslint/js": "^9.9.1",
     "cypress": "^13.14.1",
-    "eslint": "^9.9.1",
+    "eslint": "^8.57.0",
     "eslint-plugin-cypress": "^3.5.0",
     "eslint-plugin-jest": "^28.8.1",
     "globals": "^15.9.0",
