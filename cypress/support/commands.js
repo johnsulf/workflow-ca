@@ -9,17 +9,19 @@
 // ***********************************************
 //
 //
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (email, password) => {
+  cy.visit('https://johnsulf.github.io/workflow-ca/');
+  cy.wait(1000);
+
+  cy.get('button[data-auth="login"]').last().click();
+
+  cy.get('#loginEmail').should('be.visible').clear();
+  cy.get('#loginPassword').should('be.visible').clear();
+
+  cy.get('#loginEmail').type(email, { delay: 100 });
+  cy.get('#loginPassword').type(password, { delay: 100 });
+
+  cy.get('#loginForm').submit();
+  cy.wait(1000);
+});

@@ -1,7 +1,8 @@
 {
     "env": {
       "browser": true,
-      "es2021": true
+      "es2021": true,
+      "cypress/globals": true
     },
     "extends": "eslint:recommended",
     "overrides": [
@@ -41,5 +42,8 @@
       "ecmaVersion": "latest",
       "sourceType": "module"
     },
+    "plugins": [
+      "cypress"
+    ],
     "rules": {}
   }
