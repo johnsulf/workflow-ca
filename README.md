@@ -17,9 +17,9 @@ Relevant tools used in the project are:
 
 ## Status
 
-![Unit Tests](https://github.com/johnsulf/workflow-ca/actions/workflows/unit-test.yml/badge.svg)(https://github.com/johnsulf/workflow-ca/actions/workflows/unit-test.yml)
+[![Unit Tests](https://github.com/johnsulf/workflow-ca/actions/workflows/unit-test.yml/badge.svg)](https://github.com/johnsulf/workflow-ca/actions/workflows/unit-test.yml)
 
-![E2E Tests](https://github.com/johnsulf/workflow-ca/actions/workflows/e2e-test.yml/badge.svg)(https://github.com/johnsulf/workflow-ca/actions/workflows/e2e-test.yml)
+[![E2E Tests](https://github.com/johnsulf/workflow-ca/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/johnsulf/workflow-ca/actions/workflows/e2e-test.yml)
 
 [![Deploy static content to Pages](https://github.com/johnsulf/workflow-ca/actions/workflows/pages.yml/badge.svg)](https://github.com/johnsulf/workflow-ca/actions/workflows/pages.yml)
 
